@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MatchParentWeight1Style" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="NumButton" parent="MatchParentWeight1Style">
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@color/numButton</item>
+    </style>
+
+    <style name="FunButton" parent="MatchParentWeight1Style">
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@color/funButton</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ExpressionTextView" parent="AppTheme">
+        <item name="android:textSize">60sp</item>
+    </style>
+
+    <style name="AnswerTextView" parent="AppTheme">
+        <item name="android:textSize">47sp</item>
+    </style>
+
+</resources>

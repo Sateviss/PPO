@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <TableRow style="@style/MatchParentWeight1Style">
+
+            <Button
+                android:id="@+id/buttonSin"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/sin" />
+
+            <Button
+                android:id="@+id/buttonCos"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/cos" />
+
+            <Button
+                android:id="@+id/buttonTan"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/tan" />
+
+        </TableRow>
+
+        <TableRow style="@style/MatchParentWeight1Style">
+
+            <Button
+                android:id="@+id/buttonLn"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/ln" />
+
+            <Button
+                android:id="@+id/buttonLog2"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/log2" />
+
+            <Button
+                android:id="@+id/buttonLog10"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/log10" />
+
+        </TableRow>
+
+        <TableRow style="@style/MatchParentWeight1Style">
+
+            <Button
+                android:id="@+id/buttonFactorial"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/factorial" />
+
+            <Button
+                android:id="@+id/buttonMod"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/mod" />
+
+            <Button
+                android:id="@+id/buttonFloor"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/floor" />
+
+        </TableRow>
+
+        <TableRow style="@style/MatchParentWeight1Style">
+
+            <Button
+                android:id="@+id/buttonPi"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/pi" />
+
+            <Button
+                android:id="@+id/buttonE"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/e" />
+
+            <Button
+                android:id="@+id/buttonRand"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/rand" />
+
+        </TableRow>
+
+        <TableRow style="@style/MatchParentWeight1Style">
+
+            <Button
+                android:id="@+id/buttonSqrt"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/sqrt_x" />
+
+            <Button
+                android:id="@+id/buttonCbrt"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/cbrt_x" />
+
+            <Button
+                android:id="@+id/buttonPower"
+                style="@style/FunButton"
+                android:onClick="onFunction"
+                android:text="@string/power" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

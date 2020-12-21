@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="title_activity_main">Lab1</string>
+    <string name="version_name">Version name</string>
+    <string name="device_id">Device Id</string>
+    <string name="unknown">Unknown</string>
+</resources>
